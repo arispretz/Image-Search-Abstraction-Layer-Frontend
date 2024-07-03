@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #abc;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #D83A48;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Results Area */
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+yo tengo una carpeta image-search-app con dos directorios: frontend y backend
+.image-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.image-item p {
+  margin: 0;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.pagination button:hover {
+  background-color: #eee;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Recent Searches */
+.recent-searches {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.recent-searches h2 {
+  margin-bottom: 10px;
+}
+
+.recent-searches ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-searches li {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  color: crimson;
+  text-align: center;
+  font-weight: bold;
+}
