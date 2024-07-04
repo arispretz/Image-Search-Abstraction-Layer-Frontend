@@ -5,7 +5,6 @@ body {
   padding: 0;
   background-color: #abc;
   overflow-x: hidden;
-  box-sizing: border-box;
 }
 
 h1 {
@@ -25,7 +24,6 @@ form input {
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 200px;
-  box-sizing: border-box;
 }
 
 form button {
@@ -41,7 +39,7 @@ form button {
 .results {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px; 
+  grid-gap: 20px;
   padding: 20px;
 }
 
