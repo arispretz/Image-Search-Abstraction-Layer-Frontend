@@ -8,7 +8,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
 
-  const backendURL = "http://localhost:5000";
+  const backendURL = process.env.REACT_APP_BACKEND_URL;
 
   useEffect(() => {
     fetchRecentSearches();
